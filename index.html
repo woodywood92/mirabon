@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mirabon Website">
+    <meta name="keywords" content="Mirabon, hotel, exclusif, booking">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mirabon</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon/favicon-mirabon.ico">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="canvas-open">
+        <i class="icon_menu"></i>
+    </div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="icon_close"></i>
+        </div>
+        <div class="header-configure-area">
+            <div class="language-option">
+                <img id="country_flag" src="img/flagEnglish.jpg" alt="">
+                <span id="country_flag_text">EN </span> <i class="fa fa-angle-down chevron"></i>
+                <div class="flag-dropdown">
+                    <ul>
+                        <li><a href="#" onclick="changeLanguage('en')">EN</a></li>
+                        <li><a href="#" onclick="changeLanguage('fr')">FR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="bk-btn" data-i18n="booking_form_submit">Booking Now</a>
+        </div>
+        <nav class="mainmenu mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html" data-i18n="nav_menu_home">Home</a></li>
+                <li><a href="./rooms.html" data-i18n="nav_menu_rooms">Rooms</a>
+                    <ul class="dropdown">
+                        <li><a class="inline-text" href="./room-details.html" data-i18n="nav_menu_rooms_details">Room
+                                Details</a></li>
+                        <li><a class="inline-text" href="#" data-i18n="nav_menu_rooms_family">Family
+                                Room</a></li>
+                        <li><a class="inline-text" href="#" data-i18n="nav_menu_rooms_premium">Premium Room</a></li>
+                    </ul>
+                </li>
+                <li><a href="./about-us.html" data-i18n="nav_menu_aboutUs">About Us</a></li>
+                <li><a href="./blog.html" data-i18n="nav_menu_news">News</a>
+                    <ul class="dropdown">
+                        <li><a href="./blog-details.html" data-i18n="nav_menu_news_details">Blog
+                                Details</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html" data-i18n="nav_menu_contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="top-social">
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        <ul class="top-widget">
+            <li><i class="fa fa-phone"></i> +33 0101010101 </li>
+            <li><i class="fa fa-envelope"></i>contact@mirabon.com</li>
+        </ul>
+    </div>
+    <!-- Offcanvas Menu Section End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="tn-left">
+                            <li><i class="fa fa-phone"></i>+33 0101010101</li>
+                            <li><i class="fa fa-envelope"></i>contact@mirabon.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tn-right">
+                            <div class="top-social">
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
+                            <a href="#" class="bk-btn" data-i18n="header_btn_booking">Booking Now</a>
+                            <div class="language-option">
+                                <img id="country_flag" src="img/flagEnglish.jpg" alt="">
+                                <span id="country_flag_text">EN </span> <i class="fa fa-angle-down chevron"></i>
+                                <div class="flag-dropdown">
+                                    <ul>
+                                        <li><a href="#" onclick="changeLanguage('en')">EN</a></li>
+                                        <li><a href="#" onclick="changeLanguage('fr')">FR</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img/logoMirabon.png" alt="logo Mirabon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <nav class="mainmenu">
+                                <ul>
+                                    <li class="active"><a href="./index.html" data-i18n="nav_menu_home">Home</a></li>
+                                    <li><a href="./rooms.html" data-i18n="nav_menu_rooms">Rooms</a>
+                                        <ul class="dropdown">
+                                            <li><a class="inline-text" href="./room-details.html"
+                                                    data-i18n="nav_menu_rooms_details">Room
+                                                    Details</a></li>
+                                            <li><a class="inline-text" href="#" data-i18n="nav_menu_rooms_family">Family
+                                                    Room</a></li>
+                                            <li><a class="inline-text" href="#"
+                                                    data-i18n="nav_menu_rooms_premium">Premium Room</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./about-us.html" data-i18n="nav_menu_aboutUs">About Us</a></li>
+                                    <li><a href="./blog.html" data-i18n="nav_menu_news">News</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./blog-details.html" data-i18n="nav_menu_news_details">Blog
+                                                    Details</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./contact.html" data-i18n="nav_menu_contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1 data-i18n="welcome_message"></h1>
+                        <p data-i18n="welcome_message_description">Here are the best hotel booking sites, including
+                            recommendations for international
+                            travel and for finding low-priced hotel rooms.</p>
+                        <a href="#" class="primary-btn" data-i18n="booking_form_discover">Discover Now</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
+                    <div class="booking-form">
+                        <h3 data-i18n="booking_form_h3">Booking your holiday</h3>
+                        <form action="#">
+                            <div class="check-date">
+                                <label for="date-in" data-i18n="booking_form_check_int">Check In</label>
+                                <input type="text" class="date-input" id="date-in">
+                                <i class="icon_calendar"></i>
+                            </div>
+                            <div class="check-date">
+                                <label for="date-out" data-i18n="booking_form_check_out">Check Out</label>
+                                <input type="text" class="date-input" id="date-out">
+                                <i class="icon_calendar"></i>
+                            </div>
+                            <div class="select-option">
+                                <label for="guest" data-i18n="booking_form_guests">Guests</label>
+                                <select id="guest">
+                                    <option value="">2 Adults</option>
+                                    <option value="">3 Adults</option>
+                                </select>
+                            </div>
+                            <div class="select-option">
+                                <label for="room" data-i18n="booking_form_room">Room</label>
+                                <select id="room">
+                                    <option value="">1 Room</option>
+                                    <option value="">2 Room</option>
+                                </select>
+                            </div>
+                            <button type="submit" data-i18n="booking_form_submit">Check Availability</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg"></div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Begin -->
+    <section class="aboutus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <span data-i18n="aboutus_span">About Us</span>
+                            <h2 data-i18n="aboutus_h2">Intercontinental LA <br />Westlake Hotel</h2>
+                        </div>
+                        <p class="f-para" data-i18n="aboutus_h2_description">Sona.com is a leading online accommodation
+                            site. We’re passionate about
+                            travel. Every day, we inspire and reach millions of travelers across 90 local websites in 41
+                            languages.</p>
+                        <p class="s-para" data-i18n="aboutus_h2_description_sub">So when it comes to booking the perfect
+                            hotel, vacation rental, resort,
+                            apartment, guest house, or tree house, we’ve got you covered.</p>
+                        <a href="#" class="primary-btn about-btn" data-i18n="aboutus_read_more">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="img/about/about-1.jpg" alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/about/about-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Services Section End -->
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span data-i18n="services_span">What We Do</span>
+                        <h2 data-i18n="services_h2">Discover Our Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-036-parking"></i>
+                        <h4 data-i18n="services_h2_items_parking">Travel Plan</h4>
+                        <p data-i18n="services_h2_items_parking_description">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-033-dinner"></i>
+                        <h4 data-i18n="services_h2_items_dinner">Catering Service</h4>
+                        <p data-i18n="services_h2_items_dinner_description">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-026-bed"></i>
+                        <h4 data-i18n="services_items_hosting">Hosting</h4>
+                        <p data-i18n="services_items_hosting_description">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-024-towel"></i>
+                        <h4 data-i18n="services_items_laundry">Laundry</h4>
+                        <p data-i18n="services_items_laundry_description">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-038-five-stars"></i>
+                        <h4 data-i18n="services_items_activities">Activities</h4>
+                        <p data-i18n="services_items_activities_description">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing
+                            elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-012-cocktail"></i>
+                        <h4 data-i18n="services_items_drinks">Bar & Drink</h4>
+                        <p data-i18n="services_items_drinks_description">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Home Room Section Begin -->
+    <section class="hp-room-section">
+        <div class="container-fluid">
+            <div class="hp-room-items">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.jpg">
+                            <div class="hr-text">
+                                <h3>Double Room</h3>
+                                <h2>199$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b2.jpg">
+                            <div class="hr-text">
+                                <h3>Premium King Room</h3>
+                                <h2>159$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b3.jpg">
+                            <div class="hr-text">
+                                <h3>Deluxe Room</h3>
+                                <h2>198$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b4.jpg">
+                            <div class="hr-text">
+                                <h3>Family Room</h3>
+                                <h2>299$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Room Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span data-i18n="testimonial_span">Testimonials</span>
+                        <h2 data-i18n="testimonial_h2">What Customers Say?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="ts-item">
+                            <p data-i18n="testimonial_feedback_1">After a construction project took longer than
+                                expected, my
+                                husband, my daughter and I
+                                needed a place to stay for a few nights. As a Chicago resident, we know a lot about our
+                                city, neighborhood and the types of housing options available and absolutely love our
+                                vacation at Sona Hotel.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5 data-i18n="testimonial_feedback_name_1"> - Alexander Vasquez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                        <div class="ts-item">
+                            <p data-i18n="testimonial_feedback_2">After a construction project took longer than
+                                expected, my
+                                husband, my daughter and I
+                                needed a place to stay for a few nights. As a Chicago resident, we know a lot about our
+                                city, neighborhood and the types of housing options available and absolutely love our
+                                vacation at Sona Hotel.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5 data-i18n="testimonial_feedback_name_2"> - Alexander Vasquez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Hotel News</span>
+                        <h2>Our Blog & Event</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="img/blog/blog-1.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Travel Trip</span>
+                            <h4><a href="#">Tremblant In Canada</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="img/blog/blog-2.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Camping</span>
+                            <h4><a href="#">Choosing A Static Caravan</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 15th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="img/blog/blog-3.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Event</span>
+                            <h4><a href="#">Copper Canyon</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 21th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-wide.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Event</span>
+                            <h4><a href="#">Trip To Iqaluit In Nunavut A Canadian Arctic City</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 08th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-10.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Travel</span>
+                            <h4><a href="#">Traveling To Barcelona</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 12th April, 2019</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-text">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ft-about">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="img/footer-logo.png" alt="">
+                                </a>
+                            </div>
+                            <p data-i18n="footer_discover_mirabon">We inspire and reach millions of travelers<br />
+                                across 90 local websites</p>
+                            <div class="fa-social">
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-contact">
+                            <h6 data-i18n="footer_contact">Contact Us</h6>
+                            <ul>
+                                <li>(+33) 01 01 01 01</li>
+                                <li>contact@mirabon.com</li>
+                                <li>Lieu dit Mirabon, 61290 Monceaux-au-Perche</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-newslatter">
+                            <h6 data-i18n="footer_news">New latest</h6>
+                            <p data-i18n="footer_news_description">Get the latest updates and offers.</p>
+                            <form action="#" class="fn-form">
+                                <input type="text" placeholder="Email">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-option">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Environmental Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="co-text">
+                            <p> Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/languages.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+{
+	"welcome_message": "Mirabon un lieu unique",
+	"header_btn_booking": "Réservation",
+	"nav_menu_home": "Accueil",
+	"nav_menu_rooms": "Chambres",
+	"nav_menu_rooms_details": "Détails des chambres",
+	"nav_menu_rooms_family": "Chambre familliale ",
+	"nav_menu_rooms_premium": "Chambre Premium",
+	"nav_menu_aboutUs": "À propos de nous",
+	"nav_menu_news": "Nouveautés",
+	"nav_menu_news_details": "Détails du blog",
+	"nav_menu_contact": "Contact",
+	"welcome_message_description": "Gîte-hôtel d’exception niché Parc Naturel du Perche à moins de deux heures de Paris. Entre nature préservée et charme du patrimoine local, où chaque détail a été pensé pour offrir à ses hôtes une parenthèse de sérénité et d’élégance. ",
+	"booking_form_h3": "Demande de devis",
+	"booking_form_check_int": "Arrivée",
+	"booking_form_check_out": "Départ",
+	"booking_form_guests": "Invité(s)",
+	"booking_form_room": "Chambre",
+	"booking_form_submit": "Vérifier la disponibilité",
+	"booking_form_discover": "Découvrir maintenant",
+
+	"aboutus_span": "A propos de nous",
+	"aboutus_h2": "Mirabon | Monceaux-au-Perche",
+	"aboutus_h2_description": "Au cœur de la nature, cet ancien moulin du XIXe siècle, récemment rénové, vous accueille dans un cadre paisible et authentique. Entre murs en pierre, poutres apparentes et confort moderne, chaque détail a été pensé pour préserver l’âme du lieu.",
+	"aboutus_h2_description_sub": "Bordé par une rivière et entouré de verdure, l’hôtel offre une parenthèse hors du temps, idéale pour se ressourcer. Le restaurant, met à l’honneur une cuisine locale et de saison.",
+	"aboutus_read_more": "Lire plus",
+
+	"services_span": "Ce que nous proposons",
+	"services_h2": "Découvrez nos services",
+	"services_h2_items_parking": "Plan de voyage",
+	"services_h2_items_parking_description": "L’hôtel propose un service de voiturier pour faciliter votre arrivée, ainsi qu’un parking équipé de bornes de recharge pour véhicules électriques, afin de répondre aux besoins de tous les voyageurs.",
+
+	"services_h2_items_dinner": "Service de traiteur",
+	"services_h2_items_dinner_description": "Le moulin propose un service de traiteur sur place, idéal pour les événements privés ou professionnels. Élaborée à partir de produits frais et locaux.",
+	"services_items_hosting": "Hérbergement",
+	"services_items_hosting_description": "Les chambres sont confortables et lumineuses, avec poutres apparentes et décoration inspirée du moulin d'origine et dispose d'une vue sur la rivière ou le jardin.",
+
+	"services_items_activities": "Activités",
+	"services_items_activities_description": "Visite de la ferme Bio Le Bec-Hellouin, Découvete de la forêt de Réno-Valdieu, Visite de La Chapelle-Montligeon et de la brasserie La Vertueuse Escapades en VW Combi.",
+
+	"services_items_laundry": "Blanchisserie",
+	"services_items_laundry_description": "Pour votre confort, l’hôtel propose un service de blanchisserie sur place, incluant le lavage, le séchage et le repassage de vos vêtements.",
+
+	"services_items_drinks": "Bar et boissons",
+	"services_items_drinks_description": "Le bar de l’hôtel vous accueille dans une atmosphère chaleureuse et authentique, proposant une sélection de vins locaux, cocktails maison et boissons artisanales à savourer en terrasse ou près de la cheminée.",
+
+	"testimonial_span": "Expériences de voyageurs",
+	"testimonial_h2": "L'avis des clients",
+	"testimonial_feedback_1": "Nous avons passé un week-end incroyable dans cet ancien moulin rénové. Le cadre est absolument magnifique, entouré de verdure et du bruit apaisant de la rivière. La chambre était spacieuse, pleine de charme, et le confort moderne s’intègre parfaitement avec l’authenticité du lieu. Un vrai havre de paix pour se déconnecter. Je recommande vivement !",
+	"testimonial_feedback_2": "Cet hôtel est l'endroit parfait pour échapper au stress quotidien. L'atmosphère tranquille et la beauté naturelle des environs m'ont vraiment permis de me détendre. Le service est irréprochable, et la cuisine au restaurant est excellente. C'est un lieu que je recommande sans hésiter pour ceux qui cherchent la sérénité.",
+	"testimonial_feedback_name_1": " - Sophie, Paris",
+	"testimonial_feedback_name_2": " -  Marc, Lyon",
+	"footer_contact": "Nous contacter",
+	"footer_news": "Nouveautés",
+	"footer_news_description": "Recevez les dernières mises à jour et offres.",
+	"footer_discover_mirabon": "Découvrez un lieu unique où confort, charme et authenticité se rencontrent pour faire de chaque séjour une véritable parenthèse enchantée."
+}

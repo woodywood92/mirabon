@@ -1,0 +1,60 @@
+{
+	"welcome_message": "Mirabon A unique place",
+	"header_btn_booking": "Booking now",
+	"nav_menu_home": "Home",
+	"nav_menu_rooms": "Rooms",
+	"nav_menu_rooms_details": "Rooms details",
+	"nav_menu_rooms_family": "Family Room",
+	"nav_menu_rooms_premium": "Premium Room",
+	"nav_menu_aboutUs": "About Us",
+	"nav_menu_news": "News",
+	"nav_menu_news_details": "Blog Details",
+	"nav_menu_contact": "Contact",
+	"welcome_message_description": "Exceptional gîte-hotel nestled in the Parc Naturel du Perche, less than two hours from Paris.Between unspoilt nature and the charm of the local heritage, where every detail has been thought of to offer guests a moment of serenity and elegance.",
+	"booking_form_h3": "Request a quote",
+	"booking_form_check_int": "Check In",
+	"booking_form_check_out": "Check Out",
+	"booking_form_guests": "Guest(s)",
+	"booking_form_room": "Room",
+	"booking_form_submit": "Check Availability",
+	"booking_form_discover": "Discover Now",
+
+	"aboutus_span": "About Us",
+	"aboutus_h2": "Mirabon | Monceaux-au-Perche",
+	"aboutus_h2_description": "In the heart of nature, this recently renovated 19th-century mill welcomes you to a peaceful, authentic setting. Between stone walls, exposed beams and modern comforts, every detail has been thought out to preserve the soul of the place.",
+	"aboutus_h2_description_sub": "Bordered by a river and surrounded by greenery, the hotel offers a timeless interlude, ideal for recharging your batteries. The restaurant, features local, seasonal cuisine.",
+	"aboutus_read_more": "Read More",
+
+	"services_span": "What We Offer",
+	"services_h2": "Discover Our Services",
+
+	"services_h2_items_parking": "Travel Plan",
+	"services_h2_items_parking_description": "The hotel offers a valet parking service to facilitate your arrival, as well as a parking lot equipped with charging stations for electric vehicles, to meet the needs of all travelers.",
+
+	"services_items_activities": "Activities",
+	"services_items_activities_description": "Visit Le Bec-Hellouin organic farm, discover the Réno-Valdieu forest, visit La Chapelle-Montligeon and La Vertueuse brewery VW Combi escapades.",
+
+	"services_h2_items_dinner": "Catering Service",
+	"services_h2_items_dinner_description": "Le Moulin offers an on-site catering service, ideal for private or corporate events. Using fresh, local produce.",
+	"services_items_hosting": "Hosting",
+	"services_items_hosting_description": "The rooms are comfortable and bright, with exposed beams and decor inspired by the original mill, and have a view of the river or garden.",
+
+	"services_items_laundry": "Laundry",
+	"services_items_laundry_description": "For your convenience, the hotel offers an on-site laundry service, including washing, drying and ironing of your clothes.",
+
+	"services_items_drinks": "Bar & Drink",
+	"services_items_drinks_description": "The hotel bar welcomes you in a warm and authentic atmosphere, offering a selection of local wines, house cocktails and artisanal drinks to enjoy on the terrace or by the fireplace.",
+	"testimonial_span": "Traveler's experiences",
+	"testimonial_h2": "Customer feedback",
+	"testimonial_feedback_1": "We had an incredible weekend in this renovated old mill. The setting is absolutely beautiful, surrounded by greenery and the soothing sound of the river. The room was spacious, full of charm, and the modern comforts blend perfectly with the authenticity of the place. A true haven of peace for disconnecting. I highly recommend it ! - Sophie, Paris",
+	"testimonial_feedback_2": "This hotel is the perfect place to escape from everyday stress. The tranquil atmosphere and natural beauty of the surroundings really helped me relax. The service is impeccable, and the food in the restaurant is excellent. It's a place I'd recommend without hesitation for those seeking serenity. - Marc, Lyon",
+	"testimonial_feedback_name_1": " - Sophie, Paris",
+	"testimonial_feedback_name_2": " -  Marc, Lyon",
+	"about_us": "Learn more about us...",
+
+	"footer_text": "© 2023 All rights reserved.",
+	"footer_contact": "Contact Us",
+	"footer_news": "New latest",
+	"footer_news_description": "Get the latest updates and offers.",
+	"footer_discover_mirabon": "Discover a unique place where comfort, charm and authenticity come together to make every stay an enchanted interlude."
+}
